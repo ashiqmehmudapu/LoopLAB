@@ -1,0 +1,58 @@
+body{
+    background: #333333;
+    color:#fff;
+}
+.navbar{
+    border-bottom: 3px solid #007ACC;
+    background:#9c27b0;
+    opacity: 0.9;
+}
+
+#home-section{
+    background:url("../img/2nd.jpg") no-repeat center top;
+    min-height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home-section .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 800px;
+}
+#home-section .home-inner{
+    padding-top:150px ;
+    padding-bottom: 50px;
+}
+
+#home-section .fas{
+    background: #fff;
+    color:#007ACC ;
+    padding: 5px;
+    font: 50px;
+    border-radius: 5px;
+}
+
+#home-section .card-form{
+    opacity: 0.3;
+}
+#about-main-section .fas{
+    background: #333;
+    color:#007ACC ;
+    padding: 5px;
+    font: 50px;
+    border-radius: 5px;  
+}
+#garden-main-section .fas{
+    background: #fff;
+    color:#007ACC ;
+    padding: 5px;
+    font: 50px;
+    border-radius: 5px
+}
+#result-main-section .fas{
+    background: #333;
+    color:#007ACC ;
+    padding: 5px;
+    font: 50px;
+    border-radius: 5px
+}
